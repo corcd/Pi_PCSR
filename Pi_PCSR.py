@@ -1,8 +1,8 @@
 import RPi.GPIO as GPIO
 import time
 
-Trig_Pin = 20  #超声波发送脚
-Echo_Pin = 21  #超声波接收检测脚
+Trig_Pin = 23  #超声波发送脚
+Echo_Pin = 24  #超声波接收检测脚
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(Trig_Pin, GPIO.OUT, initial=GPIO.LOW)
